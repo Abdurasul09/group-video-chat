@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Ivy Streams</title>
+	<link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+	<link rel="stylesheet"
+		href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+	<button id="join-btn">Join Stream</button>
+	<div id="stream-wrapper">
+		<div id="video-streams"></div>
+		<div id="stream-controls">
+			<button id="mic-btn">
+				<span class="material-symbols-outlined">
+		      mic
+	      </span>
+			</button>
+			<button id="leave-btn">
+				<span class="material-symbols-outlined">
+					call_end
+				</span>
+			</button>
+			<button id="camera-btn">
+				<span class="material-symbols-outlined">
+					videocam
+				</span>
+			</button>
+		</div>
+	</div>
+
+	<script src="./AgoraRTC_N-4.17.2.js"></script>
+	<script src="./script.js"></script>
+</body>
+
+</html>
